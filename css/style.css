@@ -1,0 +1,397 @@
+
+html{
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.header{
+    background-color: #D9D9D9;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+}
+.nav-lnk{
+    margin-right: 20px;
+    color: #000000;
+    font-family: "Calibri";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-lnk:hover{
+    opacity: 65%;
+}
+.nav-lnk1{
+    color: #000000;
+    font-family: "Calibri";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-lnk1:hover{
+    opacity: 65%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .navbar-nav{
+    margin-top: -13px;
+} */
+
+.main-info{
+    margin-top: 30px;
+    height: 99px;
+    display: flex;
+    align-content: center;
+}
+.logo-link{
+    height: 130px;
+}
+.info-main{
+    display: flex;
+}
+.fa-solid{
+    margin-top: 20px;
+}
+.number{
+    color: #000;
+    font-family: Arial;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2.94px;
+    margin-left: 10px;
+}
+.work-time{
+    color: #000;
+    font-family: Arial;
+    font-size: 19.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -15px;
+}
+/* Main Catalog */
+.main-catalog{
+    background-color: #B22222;
+    height: 70px;
+}
+
+.cat-cat{
+    position: absolute ;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Calibri";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 50px;
+    top: 16px;
+
+}
+.catalog-menu{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+.catalog-menu i{
+    left: 25px;
+    position: absolute;
+    top: 13px;
+
+}
+.search-form{
+    margin: 17px 0 17px 0;
+}
+.search-form-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.search-form-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-form-field{
+    width: 800px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+#main-user-ico{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#main-user-ico:hover{
+    opacity: 75%;
+}
+#main-cart-ico{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#main-cart-ico:hover{
+    opacity: 75%;
+}
+#search-ico{
+    color: black;
+}
+#search-ico:hover{
+    color: rgba(0, 0, 0, 55%);
+}
+.red-line{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Main */
+.main{
+    height: 1400px;
+}
+.avto-planet{
+    color: #B22222;
+    font-family: Arial;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.1px;
+    margin-top: 10px;
+    text-align: center;
+}
+.avto-planet-info{
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+.main-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.main-line{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ab-comp{
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin-top: 10px;
+}
+.ab-comp-info{
+    width: 860px;
+    color: #000;
+    font-family: "Calibri";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.99%;
+}
+.ab-comp-info-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.breadcrumb-item{
+    margin-top: 5px;
+    font-size: 12px;
+}
+/* CATALOG */
+#main-banner{
+    margin-left: -5px;
+}
+.card-text{
+    color: #000;
+    font-family: Calibri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    width: 179px;
+    
+}
+.card-cost{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+.all-cat{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-info{
+    margin-top: 120px;
+}
+#product-info-text{
+    font-size: 30px;
+}
+.product-info-card{
+    display: flex;
+}
+.product-text{
+    width: 750px;
+    height: 353px;
+    border: 1px solid black;
+    margin-left:20px;
+}
+.product-flex{
+    display: flex;
+}
+#product-code{
+    margin: 34px 0 0 26px;
+    font-size: 19px;
+}
+.price-text-left1{
+    color: #000;
+    font-family: Calibri;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 26px;
+}
+.price-text-right{
+    margin-left: 50px;
+}
+.price-text-right1{
+    color: black;
+    font-family: Calibri;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+}
+#disc-cost{
+    color: #7C7C7C;
+    text-decoration: line-through;
+}
+.product-description{
+    width: 1300px;
+    height: 663px;
+    border: 1px solid black;
+    margin-top: 140px;
+}
+.description{
+    width: 1300px;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+.description-text{
+    color: #000;
+    font-family: Calibri;
+    font-size: 24.545px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.07%; /* 33.89px */
+    margin-left: 5px;
+    width: 1150px;
+    margin-top: 20px;
+}
+.price-btn-purchase{
+    margin-left: 26px;
+}
+#product-final{
+    margin-left: 26px;
+    width: 630px;
+    margin-top: 16px;
+    font-size: 18px;
+    font-family:"Calibri";
+}
+/*CONTACTS*/
+.cont-cont{
+    margin-top: 70px;
+    font-size: Calibri;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;;
+}
+.cont-text{
+    margin-top: 25px;
+    color: #000;
+    font-family: Calibri;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cont-numb{
+    margin-top: 28px;
+    color: #000;
+    font-family: Calibri;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cont-map{
+    margin-top: 85px;
+}
+
+/* Footer */
+.footer{
+    height: 330px;
+    background-color: #8F1818;
+}
+.footer-bg{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 30px;
+}
+.footer-bg .number{
+    color: #FFF;
+}
+.footer-bg .work-time{
+    color: #fff;
+}
+.map-foot{
+    margin-top: 10px;
+}
+.adres-foot{
+    color: #fff;
+    font-family: "Calibri";
+    font-size: 23.829px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 225px;
+}

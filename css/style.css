@@ -270,12 +270,24 @@ html{
     border: 1px solid black;
     margin-left:20px;
 }
+.product-min-info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26px;
+}
 .product-flex{
     display: flex;
+    margin-top: 25px;
 }
 #product-code{
-    margin: 34px 0 0 26px;
+    margin: 25px 0px 0 0px;
     font-size: 19px;
+    align-self: flex-end;
+}
+#product-having{
+    margin: 25px 25px 0 0px;
+    font-size: 25px;
+    color: #2fb344;
 }
 .price-text-left1{
     color: #000;
@@ -301,7 +313,12 @@ html{
 #disc-cost{
     color: #7C7C7C;
     text-decoration: line-through;
+    font-size: 35px;
 }
+#old-price{
+    font-size: 35px;
+}
+
 .product-description{
     width: 1300px;
     height: 663px;
@@ -325,12 +342,13 @@ html{
     margin-top: 20px;
 }
 .price-btn-purchase{
+    margin-top: 25px;
     margin-left: 26px;
 }
 #product-final{
     margin-left: 26px;
     width: 630px;
-    margin-top: 16px;
+    margin-top: 25px;
     font-size: 18px;
     font-family:"Calibri";
 }
